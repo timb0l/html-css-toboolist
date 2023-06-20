@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color:rgb(211, 208, 208);
+    background-color:rgb(243, 243, 243);
     font-family:'Inter', sans-serif;
 }
 
@@ -15,7 +15,7 @@ main {
 }
 
 header{
-    height: auto;
+    height: 40px;
     background-color: white;
     position: relative;
     padding: 0 20px;
@@ -23,18 +23,51 @@ header{
 
 
 #logo_toboolist {
-    height: 30px;
+    height: 40px;
 }
 
 #button_container {
-    width: ;80%;
-    margin:0;
+    width: 100%;
+    margin:20px;
+    
 }
 
 .button_task{
-    background-color: aquamarine;
+    padding: 5px 15px;
+    background-color: rgb(130, 209, 255);
+    border-radius: 10px;
+    border: none;  
+}
+.button_section{
+    padding: 5px 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid grey;
+
 }
 
-.button_section{
-    background-color: white;
+.correct {
+    height: 20px;
+    width: 20px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 2px 4px;
+}
+.incorrect {
+    height: 20px;
+    width: 20px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 2px 4px;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 20px;
 }
