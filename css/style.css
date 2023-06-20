@@ -53,7 +53,6 @@ header{
     border: 1px solid green;
     border-radius: 50%;
     font-size: 20px;
-    margin-left: 5px;
     padding: 2px 4px;
 }
 .incorrect {
@@ -63,11 +62,58 @@ header{
     border: 1px solid red;
     border-radius: 50%;
     font-size: 20px;
-    margin-left: 5px;
     padding: 2px 4px;
 }
 
 ul{
     list-style: none;
     margin-bottom: 20px;
+}
+
+.editorial {
+    background-color: rgb(212, 52, 218);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.q1goals {
+    background-color: rgb(226, 105, 125);
+    color:white;
+    border:none;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.recruiting {
+    background-color: rgb(116, 184, 28);
+    color:white;
+    border:none;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.mobile {
+    background-color: rgb(255, 115, 34);
+    color:white;
+    border:none;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.website {
+    background-color: rgb(211, 214, 52);
+    color:white;
+    border:none;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.sales {
+    background-color: rgb(206, 27, 27);
+    color:white;
+    border:none;
+    border-radius: 15px;
+    padding: 5px 15px;
 }
