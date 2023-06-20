@@ -3,6 +3,32 @@
     padding: 0;
     box-sizing: border-box;}
 
-font-family: 'Inter', sans-serif;
-font-family: 'Montserrat', sans-serif;
 
+#header_container {
+    width: 100%
+    margin: 0 auto;
+    color: white;
+}
+
+body {background-color:rgba(255, 255, 255, 0.589)
+}
+
+.bg_debug{
+    background-color: cornsilk
+}
+#main_container {
+    width: ;80%;
+    margin:0;
+}
+
+#logo_toboolist {
+    height: 30px;
+}
+
+.bg_add_task{
+    background-color: aquamarine;
+}
+
+.add_text{
+
+}
